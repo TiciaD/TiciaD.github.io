@@ -5,7 +5,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 import "./Home.css";
 
 export default function Home() {
@@ -43,6 +44,57 @@ export default function Home() {
                     </Col>
                 </Row>
             </Container>
+
+            <Container>
+                <Row>
+                    <Col className="projects px-5 m-5 rounded">
+                        <h2 class="p-4">My Projects</h2>
+                        <Row xs={1} md={2} className="g-4 mb-5">
+                            {Array.from({ length: 4 }).map((_, idx) => (
+                                <Col>
+                                    <Card>
+                                        <Card.Img variant="top" src="holder.js/100px160" />
+                                        <Card.Body>
+                                        <Card.Title>Project</Card.Title>
+                                        <Card.Text>
+                                            This is a longer card with supporting text below as a natural
+                                            lead-in to additional content. This content is a little bit longer.
+                                        </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                            ))}
+                        </Row>
+                    </Col>
+                </Row>
+            </Container>
+
+            <Container>
+                <Row>
+                    <Col>
+                        <Card className="p-4 shadow p-3 mb-5 bg-body rounded">
+                            <Card.Header as="h5">Featured Blog Post</Card.Header>
+                            <Card.Body>
+                                <Card.Title>Special title treatment</Card.Title>
+                                <Card.Text>
+                                With supporting text below as a natural lead-in to additional content.
+                                </Card.Text>
+                                <Button variant="primary">Read More</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+            </Container>
+
+            <div class="footer bg-white">
+               <Container>
+                    <Row>
+                        <Col className="px-5 m-3">
+                            Contact Me
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
         </>
     )
 }
