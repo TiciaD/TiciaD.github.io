@@ -1,5 +1,11 @@
-.App {
-  text-align: center;
+html {
+    min-height: 100%;
+}
+
+body {
+  width: 100%;
+  background-image: url("./styles/cool_background.jpg");
+  background-size: cover;
 }
 
 .App-logo {
