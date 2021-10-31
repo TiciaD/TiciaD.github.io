@@ -1,48 +1,61 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import {Container, Row, Col, Carousel} from 'react-bootstrap/';
 import './About.css';
 
 function About() {
     return(
             <>
-            <Navbar bg="light" expand="lg">
-                <Container>
-                    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">HOME</Nav.Link>
-                        <Nav.Link href="#link">ABOUT</Nav.Link>
-                        <Nav.Link href="#link">PORTFOLIO</Nav.Link>
-                        <NavDropdown title="BLOG" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                        </NavDropdown>
-                    </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
-
             <Container className="w-100 h-100 p-3 mx-auto mt-5">
                 <Row>
-                    <Col className="intro px-5 m-5 rounded">
-                        <h1 className="p-4">Web Developer</h1>
-                        <img src="./styles/Me.jpg" class="img-thumbnail" alt="..."/>
-                        <p className="lead">Hi I'm an aspiring web developer, artist and former chemist from Louisville, Kentucky</p>
-                        <p className="lead p-4">
-                            <Button variant="secondary" size="lg">Learn More</Button>
+                    <Col className="intro px-5 m-5 rounded text-center">
+                        <img className="img-thumbnail rounded-circle mt-5 p-2 border border-primary" src="../img/ProfilePic (2).jpg" alt="..." width="200px" height="200px"/>
+                        <h1 className="p-3">About Me</h1>
+                        <p className="lead fs-4">Hi! I'm an aspiring <span className="fw-bolder">web developer</span>, <span className="fw-bolder">artist</span> and former chemist from Louisville, Kentucky</p>
+                        <p className="lead p-3">
+                        Originally I'm from Louisville, KY, born and raised (go Cards!), before I went to college at Morehead State University.
                         </p>
                     </Col>
                 </Row>
+            </Container>
+
+            <Container>
+                <Carousel>
+                    <Carousel.Item>
+                        <img
+                        className="d-block w-100"
+                        src="../img/ToDoList_thumbnail.png"
+                        alt="First slide"
+                        />
+                        <Carousel.Caption>
+                        <h3>First slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className="d-block w-100"
+                        src="../img/ToDoList_thumbnail.png"
+                        alt="Second slide"
+                        />
+
+                        <Carousel.Caption>
+                        <h3>Second slide label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className="d-block w-100"
+                        src="../img/ToDoList_thumbnail.png"
+                        alt="Third slide"
+                        />
+
+                        <Carousel.Caption>
+                        <h3>Third slide label</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
             </Container>
         </>
     )
