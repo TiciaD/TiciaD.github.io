@@ -6,33 +6,39 @@ import "./Home.css";
 export default function Home() {
     return (
         <>
-            <Container className="w-50 h-100 p-3 mx-auto mt-5">
-                <Row>
-                    <Col className="intro px-5 m-5 rounded text-center">
-                        <img className="img-thumbnail rounded-circle mt-5 p-2 border border-primary" src="../img/ProfilePic (2).jpg" alt="..." width="200px" height="200px"/>
-                        <h1 className="p-2">Ticia Dunn</h1>
-                        <p className="lead fs-4">Hi! I'm an aspiring <span className="fw-bolder">web developer</span>, <span className="fw-bolder">artist</span> and former chemist from Louisville, Kentucky</p>
-                        <p className="lead p-3">
-                            <Button as={Link} to="/about" variant="primary" size="lg">Learn More</Button>
-                        </p>
-                        <Col>
-                            <Container className="mb-5">
-                                <Row>
-                                    <Col>
-                                        <a href="mailto:dunnticia633@gmail.com"><img src="../img/Email.svg" class="rounded" alt="..." width="50px" height="50px"/></a>
-                                    </Col>
-                                    <Col>
-                                        <a href="https://github.com/TiciaD/TiciaD.github.io.git"><img src="../img/Github.svg" class="rounded" alt="..." width="50px" height="50px"/></a>
-                                    </Col>
-                                    <Col>
-                                        <a href="https://www.linkedin.com/in/ticia-dunn-39208b178"><img src="../img/linkedin.svg" class="rounded" alt="..." width="50px" height="50px"/></a>
-                                    </Col>
-                                </Row>
-                            </Container>
-                        </Col>
-                    </Col>
-                </Row>
-            </Container>
+        <Container>
+            <Row>
+                <Col lg={{ span: 8, offset: 2 }}>
+                    <Container className="card p-2 mx-auto m-5">
+                        <Row>
+                            <Col className="px-3 m-4 rounded text-center">
+                                <img className="img-thumbnail rounded-circle mt-5 p-2 border border-primary" src="../img/ProfilePic (2).jpg" alt="..." width="200px" height="200px"/>
+                                <h1 className="p-2">Ticia Dunn</h1>
+                                <p className="lead fs-4">Hi! I'm an aspiring <span className="fw-bolder">web developer</span>, <span className="fw-bolder">artist</span> and former chemist from Louisville, Kentucky</p>
+                                <p className="lead p-3">
+                                    <Button as={Link} to="/about" variant="primary" size="lg">Learn More</Button>
+                                </p>
+                                <Col>
+                                    <Container className="mb-5">
+                                        <Row>
+                                            <Col>
+                                                <a href="mailto:dunnticia633@gmail.com"><img src="../img/Email.svg" class="rounded" alt="..." width="50px" height="50px"/></a>
+                                            </Col>
+                                            <Col>
+                                                <a href="https://github.com/TiciaD/TiciaD.github.io.git"><img src="../img/Github.svg" class="rounded" alt="..." width="50px" height="50px"/></a>
+                                            </Col>
+                                            <Col>
+                                                <a href="https://www.linkedin.com/in/ticia-dunn-39208b178"><img src="../img/linkedin.svg" class="rounded" alt="..." width="50px" height="50px"/></a>
+                                            </Col>
+                                        </Row>
+                                    </Container>
+                                </Col>
+                            </Col>
+                        </Row>
+                    </Container>
+                </Col>
+            </Row>
+        </Container>
 
             <Container className="card shadow-lg p-3 mb-5 bg-body rounded">
                 <Row>
@@ -40,7 +46,7 @@ export default function Home() {
                         <h2 className="p-4 fw-bold fs-1">Featured Projects</h2>
                         <Row xs={1} md={2} className="g-3 mb-5">
                             <Col>
-                                <Card className="h-100 text-center">
+                                <Card className="h-100 text-center border-dark shadow bg-body rounded">
                                     <Card.Img variant="top" src="../img/WeatherApp_thumbnail.png"/>
                                     <Card.Body>
                                         <Card.Title className="fw-bolder text-decoration-underline">Weather App (Mobile-first)</Card.Title>
@@ -53,7 +59,7 @@ export default function Home() {
                                 </Card>
                             </Col>
                             <Col>
-                                <Card className="h-100 text-center">
+                                <Card className="h-100 text-center border-dark shadow bg-body rounded">
                                     <Card.Img variant="top" src="../img/TicTacToe_thumbnail.png"/>
                                     <Card.Body>
                                         <Card.Title className="fw-bolder text-decoration-underline">Tic Tac Toe</Card.Title>
@@ -66,7 +72,7 @@ export default function Home() {
                                 </Card>
                             </Col>
                             <Col>
-                                <Card className="h-100 text-center">
+                                <Card className="h-100 text-center border-dark shadow bg-body rounded">
                                     <Card.Img variant="top" src="../img/ReactRestaurant_thumbnail.png"/>
                                     <Card.Body>
                                         <Card.Title className="fw-bolder text-decoration-underline">Restaurant Menu Website</Card.Title>
@@ -79,7 +85,7 @@ export default function Home() {
                                 </Card>
                             </Col>
                             <Col>
-                                <Card className="h-100 text-center">
+                                <Card className="h-100 text-center border-dark shadow bg-body rounded">
                                     <Card.Img variant="top" src="../img/ToDoList_thumbnail.png"/>
                                     <Card.Body>
                                         <Card.Title className="fw-bolder text-decoration-underline">To-Do List App</Card.Title>
@@ -96,11 +102,11 @@ export default function Home() {
                 </Row>
             </Container>
 
-            <Container className="p-4 shadow p-3 mb-5 bg-body rounded">
+            <Container >
                 <Row>
-                    <Col>
+                    <Col className="p-4 shadow p-3 mb-5 bg-body rounded" lg={{ span: 8, offset: 2 }}>
                         <Card>
-                            <Card.Header as="h5">Featured Blog Post</Card.Header>
+                            <Card.Header as="h5" className="fw-bold">Featured Blog Post</Card.Header>
                             <Card.Body>
                                 <Card.Title>Part 1: Web Development 101</Card.Title>
                                 <Card.Text>

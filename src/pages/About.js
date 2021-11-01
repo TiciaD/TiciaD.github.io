@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Row, Col, Carousel} from 'react-bootstrap/';
+import {Container, Row, Col, Carousel, Card} from 'react-bootstrap/';
 import './About.css';
 
 function About() {
@@ -18,44 +18,87 @@ function About() {
                 </Row>
             </Container>
 
-            <Container>
-                <Carousel>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="../img/ToDoList_thumbnail.png"
-                        alt="First slide"
-                        />
-                        <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="../img/ToDoList_thumbnail.png"
-                        alt="Second slide"
-                        />
-
-                        <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="../img/ToDoList_thumbnail.png"
-                        alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
+            <Container className="m-5">
+                <Row xs={1} md={2}>
+                    <Col>
+                        <Card>
+                        <Card.Header className="fw-bold fs-2">My Art</Card.Header>
+                        <Carousel variant="dark" className="p-2">
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                src="../img/mySketches/sketch1.jpg"
+                                alt="First slide"
+                                height="700px"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                src="../img/mySketches/sketch2.jpg"
+                                alt="Second slide"
+                                height="700px"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                src="../img/mySketches/sketch3.jpg"
+                                alt="Third slide"
+                                height="700px"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                src="../img/mySketches/pastel1.jpg"
+                                alt="Fourth slide"
+                                height="700px"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                src="../img/mySketches/perlerBead.jpg"
+                                alt="Five slide"
+                                height="700px"
+                                />
+                            </Carousel.Item>
+                        </Carousel>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card>
+                        <Card.Header className="fw-bold fs-2">My Pets</Card.Header>
+                        <Carousel className="p-2">
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                src="../img/myPets/Scrappy.jpg"
+                                alt="First slide"
+                                height="700px"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                src="../img/myPets/Pepper.jpg"
+                                alt="Second slide"
+                                height="700px"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                src="../img/myPets/BennyCollage.jpg"
+                                alt="Third slide"
+                                height="700px"
+                                />
+                            </Carousel.Item>
+                        </Carousel>
+                        </Card>
+                    </Col>
+                </Row>
             </Container>
         </>
     )
