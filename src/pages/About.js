@@ -5,7 +5,7 @@ import './About.css';
 function About() {
     return(
             <>
-            <Container className="w-100 h-100 p-3 mx-auto mt-5">
+            <Container className="w-100 h-100 p-3 mx-auto mt-5 d-flex justify-content-center">
                 <Row>
                     <Col className="intro px-5 m-5 rounded text-center">
                         <img className="img-thumbnail rounded-circle mt-5 p-2 border border-primary" src="../img/ProfilePic (2).jpg" alt="..." width="200px" height="200px"/>
@@ -18,8 +18,8 @@ function About() {
                 </Row>
             </Container>
 
-            <Container className="m-5">
-                <Row xs={1} md={2}>
+            <Container className="m-5 d-flex justify-content-center">
+                <Row xs={1} lg={2} className="gy-3 justify-content-center">
                     <Col>
                         <Card>
                         <Card.Header className="fw-bold fs-2">My Art</Card.Header>

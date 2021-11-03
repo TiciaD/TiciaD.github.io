@@ -1,42 +1,24 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
+import Pagination from '../components/Pagination';
+import BlogPost from '../components/BlogPost';
 import axios from 'axios';
 
-function Blog() {
-    // useEffect(() => {
-    //  async function getBlog() {
-    //     try {await axios.get(`blog.json`)
-    //         .then(function (res) {
-    //             // handle success;
-    //             console.log(res.data)
-    //             // if request successful, create new class with data from API assigned to Weather objects
-    //             let blogPosts = res.data
-    //         })
-    //         console.log(response.data);
-    //     } catch (error) {
-    //     console.error(error);
-    //     }
-    // }
 
-    //     getBlog();
-    //     console.log(blogPosts);
-    // }, []);
-
-    // axios.get(`blog.json`)
-    //     .then(function (res) {
-    //         // handle success;
-    //         console.log(res)
-    //         // if request successful, create new class with data from API assigned to Weather objects
-
-    //     })
-    //     .catch(function (error) {
-    //         // handle error
-    //         alert('Error occurred, refresh!');
-    //         console.log(error);
-    //     })
+function Blog(props) {
+    console.log({posts: props.posts});
 
     return (
         <div>
-            This is my Blog
+            {/* {posts.map((item) => (
+                <BlogPost 
+                    key={item.id}
+                    id={item.id}
+                    title={item.title}
+                    post={item.description}
+                    />
+            ))
+            } */}
+            blogs
         </div>
     )
 }
