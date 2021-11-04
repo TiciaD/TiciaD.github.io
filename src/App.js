@@ -53,9 +53,6 @@ function App() {
     <Router>
         <MyNavbar />
             <Switch>
-                <Route exact path="/">
-                    <Home />
-                </Route>
                 <Route exact path="/blog">
                     <Blog posts={posts}/>
                 </Route>
@@ -64,6 +61,9 @@ function App() {
                 </Route>
                 <Route exact path="/about">
                     <About />
+                </Route>
+                <Route exact path="/">
+                    <Home />
                 </Route>
             </Switch>
         <Footer/>

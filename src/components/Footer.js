@@ -12,13 +12,13 @@ function Footer() {
                         <Container>
                             <Row xs="auto" className="d-flex justify-content-center">
                                 <Col>
-                                    <a href="mailto:dunnticia633@gmail.com"><img src="../img/Email.svg" className="contact rounded" alt="..." width="30px" height="30px"/></a>
+                                    <a href="mailto:dunnticia633@gmail.com"><img src="../img/Email.svg" className="contact-card rounded" alt="email" width="30px" height="30px"/></a>
                                 </Col>
                                 <Col>
-                                    <a href="https://github.com/TiciaD/TiciaD.github.io.git"><img src="../img/Github.svg" className="contact rounded" alt="..." width="30px" height="30px"/></a>
+                                    <a href="https://github.com/TiciaD/TiciaD.github.io.git"><img src="../img/Github.svg" className="contact-card rounded" alt="github" width="30px" height="30px"/></a>
                                 </Col>
                                 <Col>
-                                    <a href="https://www.linkedin.com/in/ticia-dunn-39208b178"><img src="../img/linkedin.svg" className="contact rounded" alt="..." width="30px" height="30px"/></a>
+                                    <a href="https://www.linkedin.com/in/ticia-dunn-39208b178"><img src="../img/linkedin.svg" className="contact-card rounded" alt="linkedin" width="30px" height="30px"/></a>
                                 </Col>
                             </Row>
                         </Container>
