@@ -24,7 +24,7 @@ function Footer() {
                         </Container>
                     </Col>
                     <Col xs={6} sm={3} className="align-self-center">
-                    Copyright Ticia Dunn
+                    ©️ Ticia Dunn
                     </Col>
                 </Row>
             </Container>

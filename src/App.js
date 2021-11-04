@@ -13,7 +13,7 @@ import Blog from './pages/Blog';
 import Portfolio from './pages/Portfolio';
 import Footer from './components/Footer';
 
-
+// Pacifico font from Adobe Fonts
 
 function App() {
     const [posts, setPosts] = useState([]);
