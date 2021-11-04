@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container, Row, Col, Card, Button, ListGroup, ListGroupItem } from 'react-bootstrap';
-
+import {Link} from "react-router-dom";
 
 function Portfolio() {
     return (
@@ -14,7 +14,7 @@ function Portfolio() {
                                 <Card className="h-100 text-center border-dark shadow bg-body rounded">
                                     <Card.Img variant="top" src="../img/WeatherApp_thumbnail.png"/>
                                     <Card.Body>
-                                        <Card.Title className="fw-bolder text-decoration-underline">Weather App (Mobile-first)</Card.Title>
+                                        <Card.Title as={Link} className="fw-bolder text-decoration-underline">Weather App (Mobile-first)</Card.Title>
                                         <Card.Text>
                                         Weather Application that takes in a ZIP code and calls a Weather API to render information on current weather. Designed for mobile devices.
                                         </Card.Text>
