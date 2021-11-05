@@ -7,10 +7,10 @@ function About() {
             <>
             <Container className="w-100 h-100 p-3 mx-auto mt-5 d-flex justify-content-center">
                 <Row>
-                    <Col className="intro px-5 m-5 rounded text-center">
+                    <Col className="intro px-5 pb-4 m-5 rounded text-center">
                         <img className="img-thumbnail rounded-circle mt-5 p-2 border border-primary" src="../img/ProfilePic (2).jpg" alt="..." width="200px" height="200px"/>
                         <h1 className="p-3">About Me</h1>
-                        <p className="lead fs-4">Hi! I'm an aspiring <span className="fw-bolder">web developer</span>, <span className="fw-bolder">artist</span> and former chemist from Louisville, Kentucky</p>
+                        <p className="lead fs-4">Hi! I'm an aspiring <span className="fw-bolder hover-underline-animation">web developer</span>, <span className="fw-bolder hover-underline-animation">artist</span> and former chemist from Louisville, Kentucky</p>
                         <p className="lead p-3">
                         I'm originally from Louisville, KY, born and raised (go Cards!), before I went to college at Morehead State University. It took me 6 years but I finally received a Bachelor's of Science degree 
                         in Chemistry in 2020. Unfortunately, in my desperation to graduate, I settled on a major I didn't like since I had more credits towards it. This resulted in me going into the workforce with a 

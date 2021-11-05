@@ -13,8 +13,8 @@ export default function Home() {
                         <Row>
                             <Col className="px-3 m-4 rounded text-center">
                                 <img className="profile-pic img-thumbnail rounded-circle mt-5 p-2 border border-primary" src="../img/ProfilePic (2).jpg" alt="..." width="200px" height="200px"/>
-                                <h1 className="p-2">Ticia Dunn</h1>
-                                <p className="lead fs-4">Hi! I'm an aspiring <span className="fw-bolder">web developer</span>, <span className="fw-bolder">artist</span> and former chemist from Louisville, Kentucky</p>
+                                <h1 className="p-2 fw-bold fs-1 title-name">Ticia Dunn</h1>
+                                <p className="lead fs-4 fw-lighter">Hi! I'm an aspiring <span className="fw-bolder hover-underline-animation">web developer</span>, <span className="fw-bolder hover-underline-animation">artist</span> and former chemist from Louisville, Kentucky</p>
                                 <p className="lead p-3">
                                     <Button as={Link} to="/about" variant="primary" size="lg">Learn More</Button>
                                 </p>

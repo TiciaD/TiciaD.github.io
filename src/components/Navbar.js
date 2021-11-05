@@ -1,12 +1,13 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 import {Navbar, Nav, Container} from 'react-bootstrap';
+import './Navbar.css';
 
 export default function MyNavbar() {
     return (
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">Ticia Dunn</Navbar.Brand>
+                    <Navbar.Brand className="title-name fs-2">Ticia Dunn</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
