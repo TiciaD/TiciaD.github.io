@@ -11,8 +11,8 @@ function Blog() {
             <Container className="w-100 h-100 p-1 mx-auto d-flex justify-content-center">
                 <Row>
                     <Col className="intro px-5 pb-4 m-4 rounded text-center">
-                        <h1 className="p-3 fw-bold">Ticia's Awesome Blog</h1>
-                        <p className="lead fs-4">Follow me on my Awesome Inc Bootcamp Journey!</p>
+                        <h1 className="p-4 fw-bold">Ticia's Awesome Blog</h1>
+                        <p className="fs-4">Follow me on my Awesome Inc Bootcamp Journey!</p>
                     </Col>
                 </Row>
             </Container>

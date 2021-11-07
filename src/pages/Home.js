@@ -13,8 +13,8 @@ export default function Home() {
                         <Row>
                             <Col className="px-3 m-4 rounded text-center">
                                 <img className="profile-pic img-thumbnail rounded-circle mt-5 p-2 border border-primary" src="../img/ProfilePic (2).jpg" alt="..." width="200px" height="200px"/>
-                                <h1 className="p-2 fw-bold fs-1 title-name">Ticia Dunn</h1>
-                                <p className="lead fs-4 fw-lighter">Hi! I'm an aspiring <span className="fw-bolder hover-underline-animation">web developer</span>, <span className="fw-bolder hover-underline-animation">artist</span> and former chemist from Louisville, Kentucky</p>
+                                <h1 className="p-2 fw-bold title-name">Ticia Dunn</h1>
+                                <p className="fs-3 fw-lighter">Hi! I'm an aspiring <span className="fw-bolder hover-underline-animation">web developer</span>, <span className="fw-bolder hover-underline-animation">artist</span> and former chemist from Louisville, Kentucky</p>
                                 <p className="lead p-3">
                                     <Button as={Link} to="/about" variant="primary" size="lg">Learn More</Button>
                                 </p>
@@ -104,12 +104,12 @@ export default function Home() {
 
             <Container >
                 <Row>
-                    <Col className="p-4 shadow p-3 mb-5 bg-body rounded" lg={{ span: 8, offset: 2 }}>
+                    <Col className="p-4 shadow p-3 mb-5 bg-body rounded" lg={{ span: 10, offset: 1 }}>
                         <Card>
-                            <Card.Header as="h5" className="fw-bold">Featured Blog Post</Card.Header>
+                            <Card.Header as="h5" className="fw-bold fs-3">Featured Blog Post</Card.Header>
                             <Card.Body>
-                                <Card.Title>Part 1: Web Development 101</Card.Title>
-                                <Card.Text>
+                                <Card.Title className="fs-4 fw-bold">Part 1: Web Development 101</Card.Title>
+                                <Card.Text className="fs-4">
                                 Was the first week of bootcamp what I expected? Somehow the answer is both yes and no.
                                 Yes in that I knew I'd be facing challenges and blockers since this is so new to me and I definitely have had some struggles getting things to work how I wanted.
                                 But no in that I thought we'd jump right into programming languages, I didn't even think about the stuff you'd need to know beforehand!

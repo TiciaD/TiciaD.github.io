@@ -105,9 +105,9 @@ function OnboardingBlog() {
                 <Col>
                     <Card className="shadow p-3 mb-5 bg-body rounded">
                         <Card.Body>
-                            <Card.Title>Part 4: Pseudocode and Coming to Terms with the Chaos</Card.Title>
+                            <Card.Title className="fs-3 fw-bold">Part 4: Pseudocode and Coming to Terms with the Chaos</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">9/13/2021 - 9/17/2021</Card.Subtitle>
-                            <Card.Text>
+                            <Card.Text className="fs-4">
                                 Started off the week learning about pseudocode and doing a little project for it, where we took an everyday activity or common process and pseudocoded it. 
                                 I chose to pseudocode an elevator and I ennjoyed doing that a lot more than I did just diving into the Alarm Clock project! Being able to think the whole thing through 
                                 really helped me organize it and come up with a better idea of how I would code. All I'm missing is the JavaScript fluency to be able to translate all this pseudocode to 
