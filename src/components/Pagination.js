@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import BlogPost from './BlogPost';
+import BlogPost from './OnboardingBlog';
 
 function Pagination({ data, RenderComponent, title, pageLimit, dataLimit }) {
   const [pages] = useState(Math.round(data.length / dataLimit));

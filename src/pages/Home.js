@@ -25,7 +25,7 @@ export default function Home() {
                                                 <a href="mailto:dunnticia633@gmail.com"><img className="contact-card rounded" src="../img/Email.svg" alt="email" width="50px" height="50px"/></a>
                                             </Col>
                                             <Col>
-                                                <a href="https://github.com/TiciaD/TiciaD.github.io.git"><img className="contact-card rounded" src="../img/Github.svg" alt="github" width="50px" height="50px"/></a>
+                                                <a href="https://github.com/TiciaD"><img className="contact-card rounded" src="../img/Github.svg" alt="github" width="50px" height="50px"/></a>
                                             </Col>
                                             <Col>
                                                 <a href="https://www.linkedin.com/in/ticia-dunn-39208b178"><img className="contact-card rounded" src="../img/linkedin.svg" alt="linkedin" width="50px" height="50px"/></a>
