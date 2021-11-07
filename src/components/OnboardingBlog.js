@@ -9,7 +9,7 @@ function OnboardingBlog() {
                         <Card.Body>
                             <Card.Title className="fs-3 fw-bold">Part 1: Web Development 101</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">8/23/2021 - 8/27/2021</Card.Subtitle>
-                            <Card.Text className="fs-4">
+                            <Card.Text className="fs-5">
                                 Was the first week of bootcamp what I expected? Somehow the answer is both yes and no.
                                 Yes in that I knew I'd be facing challenges and blockers since this is so new to me and I definitely have had some struggles getting things to work how I wanted.
                                 But no in that I thought we'd jump right into programming languages, I didn't even think about the stuff you'd need to know beforehand!
@@ -32,7 +32,7 @@ function OnboardingBlog() {
                         <Card.Body>
                             <Card.Title className="fs-3 fw-bold">Part 2: HTML and CSS headaches</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">8/30/2021 - 9/3/2021</Card.Subtitle>
-                            <Card.Text className="fs-4">
+                            <Card.Text className="fs-5">
                                 Seeing all the possibilities of what I could potentially make and then trying to make that now with my limited toolset is pretty sobering. 
                                 So maybe it's a bit forward and impatient of me to say I'd like to do everything but that's definitely not far from the truth. 
                                 Some of the more specific things I'd most like to do are make my webpage more interactive. For instance, just making a menu button that 
@@ -68,7 +68,7 @@ function OnboardingBlog() {
                         <Card.Body>
                             <Card.Title className="fs-3 fw-bold">Part 3: All Aboard the JavaScript Struggle Train</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">9/6/21 - 9/10/21</Card.Subtitle>
-                            <Card.Text className="fs-4">
+                            <Card.Text className="fs-5">
                                 Well I may have predicted my struggle this week but I didn't expect it to be this bad. After a busy labor day weekend celebrating my mom's 
                                 birthday, I didn't have much time to get started or get ahead on the coursework for the week. Maybe that was my first sign that I was in for a rough week 
                                 but I definitely knew once I got to the Grasshopper modules for the Sprint. The Intro to Interviewing module was absolutely brutal compared to some of the 
@@ -82,7 +82,7 @@ function OnboardingBlog() {
                                 To then go to the Alarm clock project that had no real instructions and just a few basic requirements listed. I felt so overwhelmed because I didn't really know 
                                 where to start. Again I think I would've benefitted from more pseudocode knowledge on how to approach a problem and plan out what you need and what variables and 
                                 functions would help you accomplish that. Especially since I didn't feel like I learned a lot from Grasshopper since I often stumbled into the right answer rather 
-                                than understood *why* it was right.
+                                than understood <i>why</i> it was right.
                                 <br />
                                 <br />
                                 Demo day was pretty embarassing, I barely had a working digital clock that I spent 24hrs trying to figure out how to start on, let alone getting the alarm part working. 
@@ -90,10 +90,10 @@ function OnboardingBlog() {
                                 have time to meet several stretch goals?!' I don't like failing but my instructors have been drilling it into our heads every week that we're going to fail, we're going 
                                 to fail a lot, and that the real key is learning to fail fast so you can move on and learn from it. I had Friday after Demo to be slightly upset about it and take a break 
                                 from it but I've been hitting the books and tutorials hard this weekend to recover and hopefully learn from the mistakes I made in this last project so that I can avoid 
-                                making them in the future. Let's just say I've had a **LOT** of JavaScript practice and many hours of pseudocode crunching to prepare for this week.
+                                making them in the future. Let's just say I've had a <strong>LOT</strong> of JavaScript practice and many hours of pseudocode crunching to prepare for this week.
                                 <br />
                                 <br />
-                                For the questions: I think HTML, CSS and JavScript all have their own place in web development. HTML does a good job of giving a baseline structure and skeleton for the 
+                                <u>For the questions</u>: I think HTML, CSS and JavScript all have their own place in web development. HTML does a good job of giving a baseline structure and skeleton for the 
                                 webpage. CSS is surprisingly complex and can add a lot of style and design to a website on its own without even having to use web design softwares. JavaScript is the real 
                                 life of the webpage though, once you master it you can bring a lot of personality to a static webpage. Curently my blog doesn't have any objects, I'm kind of waiting until 
                                 we get to some frameworks to make it easier to add the things I want to my website. As for pseudocoding, I didn't know much about it this week but after the struggles I had 
@@ -107,7 +107,7 @@ function OnboardingBlog() {
                         <Card.Body>
                             <Card.Title className="fs-3 fw-bold">Part 4: Pseudocode and Coming to Terms with the Chaos</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">9/13/2021 - 9/17/2021</Card.Subtitle>
-                            <Card.Text className="fs-4">
+                            <Card.Text className="fs-5">
                                 Started off the week learning about pseudocode and doing a little project for it, where we took an everyday activity or common process and pseudocoded it. 
                                 I chose to pseudocode an elevator and I ennjoyed doing that a lot more than I did just diving into the Alarm Clock project! Being able to think the whole thing through 
                                 really helped me organize it and come up with a better idea of how I would code. All I'm missing is the JavaScript fluency to be able to translate all this pseudocode to 
