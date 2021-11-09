@@ -70,7 +70,7 @@ function FrontEndBlog() {
                 <Col>
                     <Card className="shadow p-4 mb-5 bg-body rounded">
                         <Card.Body>
-                            <Card.Title className="fs-3 fw-bold">Part 7: The Importance of Pseudodcode and learning MVC</Card.Title>
+                            <Card.Title className="fs-3 fw-bold">Part 7: The Importance of Pseudocode and learning MVC</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">10/04/21 - 10/08/21</Card.Subtitle>
                             <Card.Text className="blog-post fw-normal">
                                 <strong>Technical Article</strong>
