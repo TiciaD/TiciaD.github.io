@@ -53,7 +53,7 @@ export default function Home() {
                                         <Card.Text>
                                         Weather Application that takes in a ZIP code and calls a Weather API to render information on current weather. Designed for mobile devices.
                                         </Card.Text>
-                                        <Button variant="primary">View</Button>
+                                        <a href="https://ticiad.github.io/WeatherApp/"><Button variant="primary">View</Button></a>
                                     </Card.Body>
                                     <Card.Footer className="text-muted">Tech Stack: HTML, CSS, vanilla JavaScript, axios, Bootstrap 5</Card.Footer>
                                 </Card>
@@ -66,7 +66,7 @@ export default function Home() {
                                         <Card.Text>
                                         Recreation of classic Tic Tac Toe game using class-based OOP design in vanilla Javascript. Designed for 2 human players.
                                         </Card.Text>
-                                        <Button variant="primary">View</Button>
+                                        <a href="https://ticiad.github.io/TicTacToe/"><Button variant="primary">View</Button></a>
                                     </Card.Body>
                                     <Card.Footer className="text-muted">Tech Stack: HTML, CSS, vanilla JavaScript, Bootstrap 5</Card.Footer>
                                 </Card>
@@ -79,7 +79,7 @@ export default function Home() {
                                         <Card.Text>
                                         Website that calls an API with Food Items and renders them, along with randomly generated prices for each, in a menu format for a fake restaurant
                                         </Card.Text>
-                                        <Button variant="primary">View</Button>
+                                        <a href="https://react-restaurant-awesomeinc.web.app/"><Button variant="primary">View</Button></a>
                                     </Card.Body>
                                     <Card.Footer className="text-muted">Tech Stack: HTML, CSS, ReactJS, React-Bootstrap, axios</Card.Footer>
                                 </Card>
@@ -92,7 +92,7 @@ export default function Home() {
                                         <Card.Text>
                                         Recreation of a To-Do List application using React class components and basic CRUD principles. Features Delete and Edit buttons, and filters based on completion status. 
                                         </Card.Text>
-                                        <Button variant="primary">View</Button>
+                                        <a href="https://to-do-list-awesomeinc.web.app/"><Button variant="primary">View</Button></a>
                                     </Card.Body>
                                     <Card.Footer className="text-muted">Tech Stack: HTML, CSS, SCSS, ReactJS, Bootstrap 5</Card.Footer>
                                 </Card>
@@ -109,7 +109,7 @@ export default function Home() {
                             <Card.Header as="h5" className="fw-bold fs-3">Featured Blog Post</Card.Header>
                             <Card.Body>
                                 <Card.Title className="fs-4 fw-bold">Part 1: Web Development 101</Card.Title>
-                                <Card.Text className="fs-4">
+                                <Card.Text className="fs-5">
                                 Was the first week of bootcamp what I expected? Somehow the answer is both yes and no.
                                 Yes in that I knew I'd be facing challenges and blockers since this is so new to me and I definitely have had some struggles getting things to work how I wanted.
                                 But no in that I thought we'd jump right into programming languages, I didn't even think about the stuff you'd need to know beforehand!

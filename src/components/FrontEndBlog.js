@@ -1,16 +1,17 @@
 import React from 'react';
 import {Row, Col, Card} from 'react-bootstrap/';
+import './BlogPost.css';
 
 function FrontEndBlog() {
     return (
         <div>
             <Row xs={1} className="g-4 p-5">
                 <Col>
-                    <Card className="shadow p-3 mb-5 bg-body rounded">
+                    <Card className="shadow p-4 mb-5 bg-body rounded">
                         <Card.Body>
                             <Card.Title className="fs-3 fw-bold">Part 5: One Quarter Down, Three To Go - Welcome to In-Person Coding</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">9/20/21 - 9/24/21</Card.Subtitle>
-                            <Card.Text className="fs-5">
+                            <Card.Text className="blog-post fw-normal">
                                 Monday marked the first day we got to meet everyone in-person at Awesome Inc. HQ and what a difference that made. It's one thing for me to study and struggle
                                 in the comfort of my own home but it's slightly more intimidating to have to do that surrounded by 15 other students and your instructors. I think the warm-ups were a good addition,
                                 I had a tough time at first but I'm growing to like the CodeWars katas, I feel like I'm actually applying some of the concepts that I've been learning. Having quick access to the
@@ -40,11 +41,11 @@ function FrontEndBlog() {
                     </Card>
                 </Col>
                 <Col>
-                    <Card className="shadow p-3 mb-5 bg-body rounded">
+                    <Card className="shadow p-4 mb-5 bg-body rounded">
                         <Card.Body>
                             <Card.Title className="fs-3 fw-bold">Part 6: Clean Code and States</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">9/27/21 - 10/01/21</Card.Subtitle>
-                            <Card.Text className="fs-5">
+                            <Card.Text className="blog-post fw-normal">
                                 This week helped me understand the moving parts of making applications more. I can see how it can get super complex, especially when you start throwing other variables in and
                                 you want a more dynamic webpage.
                                 <br />
@@ -67,11 +68,11 @@ function FrontEndBlog() {
                     </Card>
                 </Col>
                 <Col>
-                    <Card className="shadow p-3 mb-5 bg-body rounded">
+                    <Card className="shadow p-4 mb-5 bg-body rounded">
                         <Card.Body>
                             <Card.Title className="fs-3 fw-bold">Part 7: The Importance of Pseudodcode and learning MVC</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">10/04/21 - 10/08/21</Card.Subtitle>
-                            <Card.Text className="fs-5">
+                            <Card.Text className="blog-post fw-normal">
                                 <strong>Technical Article</strong>
                                 <br />
                                 Pseudocode, in general, is known as an informal language somewhere between machine language and human language that helps people write algorithms for programs without

@@ -1,15 +1,16 @@
 import React from 'react';
 import {Row, Col, Card} from 'react-bootstrap/';
+import './BlogPost.css';
 
 function OnboardingBlog() {
     return (
             <Row xs={1} className="g-4 p-5">
                 <Col>
-                    <Card className="shadow p-3 mb-5 bg-body rounded">
+                    <Card className="shadow p-4 mb-5 bg-body rounded">
                         <Card.Body>
                             <Card.Title className="fs-3 fw-bold">Part 1: Web Development 101</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">8/23/2021 - 8/27/2021</Card.Subtitle>
-                            <Card.Text className="fs-5">
+                            <Card.Text className="blog-post fw-normal">
                                 Was the first week of bootcamp what I expected? Somehow the answer is both yes and no.
                                 Yes in that I knew I'd be facing challenges and blockers since this is so new to me and I definitely have had some struggles getting things to work how I wanted.
                                 But no in that I thought we'd jump right into programming languages, I didn't even think about the stuff you'd need to know beforehand!
@@ -28,11 +29,11 @@ function OnboardingBlog() {
                     </Card>
                 </Col>
                 <Col>
-                    <Card className="shadow p-3 mb-5 bg-body rounded">
+                    <Card className="shadow p-4 mb-5 bg-body rounded">
                         <Card.Body>
                             <Card.Title className="fs-3 fw-bold">Part 2: HTML and CSS headaches</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">8/30/2021 - 9/3/2021</Card.Subtitle>
-                            <Card.Text className="fs-5">
+                            <Card.Text className="blog-post fw-normal">
                                 Seeing all the possibilities of what I could potentially make and then trying to make that now with my limited toolset is pretty sobering. 
                                 So maybe it's a bit forward and impatient of me to say I'd like to do everything but that's definitely not far from the truth. 
                                 Some of the more specific things I'd most like to do are make my webpage more interactive. For instance, just making a menu button that 
@@ -64,11 +65,11 @@ function OnboardingBlog() {
                     </Card>
                 </Col>
                 <Col>
-                    <Card className="shadow p-3 mb-5 bg-body rounded">
+                    <Card className="shadow p-4 mb-5 bg-body rounded">
                         <Card.Body>
                             <Card.Title className="fs-3 fw-bold">Part 3: All Aboard the JavaScript Struggle Train</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">9/6/21 - 9/10/21</Card.Subtitle>
-                            <Card.Text className="fs-5">
+                            <Card.Text className="blog-post fw-normal">
                                 Well I may have predicted my struggle this week but I didn't expect it to be this bad. After a busy labor day weekend celebrating my mom's 
                                 birthday, I didn't have much time to get started or get ahead on the coursework for the week. Maybe that was my first sign that I was in for a rough week 
                                 but I definitely knew once I got to the Grasshopper modules for the Sprint. The Intro to Interviewing module was absolutely brutal compared to some of the 
@@ -103,11 +104,11 @@ function OnboardingBlog() {
                     </Card>
                 </Col>
                 <Col>
-                    <Card className="shadow p-3 mb-5 bg-body rounded">
+                    <Card className="shadow p-4 mb-5 bg-body rounded">
                         <Card.Body>
                             <Card.Title className="fs-3 fw-bold">Part 4: Pseudocode and Coming to Terms with the Chaos</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">9/13/2021 - 9/17/2021</Card.Subtitle>
-                            <Card.Text className="fs-5">
+                            <Card.Text className="blog-post fw-normal">
                                 Started off the week learning about pseudocode and doing a little project for it, where we took an everyday activity or common process and pseudocoded it. 
                                 I chose to pseudocode an elevator and I ennjoyed doing that a lot more than I did just diving into the Alarm Clock project! Being able to think the whole thing through 
                                 really helped me organize it and come up with a better idea of how I would code. All I'm missing is the JavaScript fluency to be able to translate all this pseudocode to 
