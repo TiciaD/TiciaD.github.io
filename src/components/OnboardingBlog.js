@@ -1,5 +1,5 @@
 import React from 'react';
-import {Row, Col, Card} from 'react-bootstrap/';
+import {Row, Col, Card, Button} from 'react-bootstrap/';
 import './BlogPost.css';
 
 function OnboardingBlog() {
@@ -13,7 +13,7 @@ function OnboardingBlog() {
                             <Card.Text className="blog-post fw-normal">
                                 Was the first week of bootcamp what I expected? Somehow the answer is both yes and no.
                                 Yes in that I knew I'd be facing challenges and blockers since this is so new to me and I definitely have had some struggles getting things to work how I wanted.
-                                But no in that I thought we'd jump right into programming languages, I didn't even think about the stuff you'd need to know beforehand!
+                                But no in that I thought we'd jump right into programming languages<span className="collapse" id="collapseExample">, I didn't even think about the stuff you'd need to know beforehand!
                                 Though to be fair, I didn't really know anything about the CLI and how to naivgate that with its various commands or about Github and its usefulness in collaborations 
                                 but now I do and understand why we'd need a good grasp of these concepts before diving into any language.
                                 <br />
@@ -23,7 +23,10 @@ function OnboardingBlog() {
                                 <br />
                                 <br />
                                 I'd like my blog to showcase my education and career journey as well as projects that may personally interest me. Maybe even add links to articles and videos I've found helpful. The amount of things I'm learning everyday is overwhelming to say the least, but if I can show how I was able to overcome each obstacle maybe 
-                                I could help someone else down the line. It's so amazing to see the awesome things my mentors' and peers' are able to put out everyday and they inspire me to be more awesome too!
+                                I could help someone else down the line. It's so amazing to see the awesome things my mentors' and peers' are able to put out everyday and they inspire me to be more awesome too!</span>
+                                <Button className="mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                    Read More
+                                </Button>
                             </Card.Text>
                         </Card.Body>
                     </Card>

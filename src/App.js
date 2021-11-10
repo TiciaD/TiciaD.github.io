@@ -11,6 +11,7 @@ import About from './pages/About';
 import Blog from './pages/Blog';
 import Portfolio from './pages/Portfolio';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 // Pacifico font from Adobe Fonts
 
@@ -33,20 +34,21 @@ function App() {
   return (
     <Router>
         <MyNavbar />
-            <Switch>
-                <Route exact path="/blog">
-                    <Blog/>
-                </Route>
-                <Route exact path="/portfolio">
-                    <Portfolio />
-                </Route>
-                <Route exact path="/about">
-                    <About />
-                </Route>
-                <Route exact path="/">
-                    <Home />
-                </Route>
-            </Switch>
+            <ScrollToTop/>
+                <Switch>
+                    <Route exact path="/blog">
+                        <Blog/>
+                    </Route>
+                    <Route exact path="/portfolio">
+                        <Portfolio/>
+                    </Route>
+                    <Route exact path="/about">
+                        <About/>
+                    </Route>
+                    <Route exact path="/">
+                        <Home/>
+                    </Route>
+                </Switch>
         <Footer/>
     </Router>
   );

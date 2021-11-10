@@ -44,7 +44,7 @@ export default function Home() {
                 <Row>
                     <Col className="pb-3 mx-5 rounded">
                         <h2 className="p-4 fw-bold fs-1">Featured Projects</h2>
-                        <Row xs={1} md={2} className="g-3 mb-5">
+                        <Row xs={1} md={2} className="g-3 mb-4">
                             <Col>
                                 <Card className="project-container h-100 text-center border-dark shadow bg-body rounded">
                                     <Card.Img variant="top" src="../img/WeatherApp_thumbnail.png"/>
@@ -99,6 +99,9 @@ export default function Home() {
                             </Col>
                         </Row>
                     </Col>
+                    <Container className="d-flex justify-content-center mb-3">
+                        <Button variant="primary" size="lg" as={Link} to="/portfolio">View More Projects</Button>
+                    </Container>
                 </Row>
             </Container>
 

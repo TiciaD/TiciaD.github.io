@@ -46,7 +46,8 @@ function Portfolio() {
                             </Col>
                             <Col>
                                 <Card className="h-100 text-center border-dark shadow bg-body rounded">
-                                    <Card.Img variant="top" src="../img/WeatherApp_thumbnail.png"/>
+                                    <Card.Img variant="top" className="static" src="../img/WeatherProjectStill.jpg"/>
+                                    <Card.Img variant="top" className="active" src="../gifs/WeatherProject.gif"/>
                                     <Card.Body>
                                         <Card.Title className="fw-bolder text-decoration-underline">Weather App (Mobile-first)</Card.Title>
                                         <Card.Text>
