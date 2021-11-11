@@ -73,7 +73,7 @@ export default function Home() {
                             </Col>
                             <Col>
                                 <Card className="project-container h-100 text-center border-dark shadow bg-body rounded">
-                                    <Card.Img variant="top" src="../img/ReactRestaurant_thumbnail.png"/>
+                                    <Card.Img variant="top" src="../img/ReactRestaurantProjectStill.jpg"/>
                                     <Card.Body>
                                         <Card.Title className="fw-bolder text-decoration-underline">Restaurant Menu Website</Card.Title>
                                         <Card.Text>

@@ -106,7 +106,8 @@ function Portfolio() {
                             </Col>
                             <Col>
                                 <Card className="h-100 text-center border-dark shadow bg-body rounded">
-                                    <Card.Img variant="top" src="../img/ReactRestaurant_thumbnail.png"/>
+                                    <Card.Img variant="top" className="static" src="../img/ReactRestaurantProjectStill.jpg"/>
+                                    <Card.Img variant="top" className="active" src="../gifs/ReactRestaurantProject.gif"/>
                                     <Card.Body>
                                         <Card.Title className="fw-bolder text-decoration-underline">Restaurant Menu Website</Card.Title>
                                         <Card.Text>
