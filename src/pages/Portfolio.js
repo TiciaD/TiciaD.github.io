@@ -32,7 +32,7 @@ function Portfolio() {
                                         <a href="https://github.com/TiciaD/TicTacToe" target="_blank" rel="noreferrer"><Button variant="primary">View My Repo</Button></a>
                                         <ListGroup className="list-group-flush mt-3">
                                             <ListGroupItem className="bg-info text-light fs-5">Tech Stack</ListGroupItem>
-                                            <ListGroupItem className="d-flex justify-content-start">
+                                            <ListGroupItem>
                                                 <li>HTML</li>
                                                 <li>CSS</li>
                                                 <li>vanilla JavaScript</li>
