@@ -1,6 +1,5 @@
 import React from 'react';
 import {Container, Row, Col, Card, Button, ListGroup, ListGroupItem } from 'react-bootstrap';
-import {Link} from "react-router-dom";
 import './Portfolio.css';
 
 function Portfolio() {
@@ -29,11 +28,11 @@ function Portfolio() {
                                         <Card.Text>
                                         Recreation of classic Tic Tac Toe game using class-based OOP design in vanilla Javascript. Designed for 2 human players.
                                         </Card.Text>
-                                        <a href="https://ticiad.github.io/TicTacToe/"><Button variant="primary" className="m-3">View Live URL</Button></a>
-                                        <a href="https://github.com/TiciaD/TicTacToe"><Button variant="primary">View My Repo</Button></a>
+                                        <a href="https://ticiad.github.io/TicTacToe/" target="_blank" rel="noreferrer"><Button variant="primary" className="m-3">View Live URL</Button></a>
+                                        <a href="https://github.com/TiciaD/TicTacToe" target="_blank" rel="noreferrer"><Button variant="primary">View My Repo</Button></a>
                                         <ListGroup className="list-group-flush mt-3">
                                             <ListGroupItem className="bg-info text-light fs-5">Tech Stack</ListGroupItem>
-                                            <ListGroupItem>
+                                            <ListGroupItem className="d-flex justify-content-start">
                                                 <li>HTML</li>
                                                 <li>CSS</li>
                                                 <li>vanilla JavaScript</li>
@@ -53,8 +52,8 @@ function Portfolio() {
                                         <Card.Text>
                                         Weather Application that takes in a ZIP code and calls a Weather API to render information on current weather. Designed for mobile devices.
                                         </Card.Text>
-                                        <a href="https://ticiad.github.io/WeatherApp/"><Button variant="primary" className="m-3">View Live URL</Button></a>
-                                        <a href="https://github.com/TiciaD/WeatherApp"><Button variant="primary">View My Repo</Button></a>
+                                        <a href="https://ticiad.github.io/WeatherApp/" target="_blank" rel="noreferrer"><Button variant="primary" className="m-3">View Live URL</Button></a>
+                                        <a href="https://github.com/TiciaD/WeatherApp" target="_blank" rel="noreferrer"><Button variant="primary">View My Repo</Button></a>
                                         <ListGroup className="list-group-flush mt-3">
                                             <ListGroupItem className="bg-info text-light">Tech Stack</ListGroupItem>
                                             <ListGroupItem>
@@ -88,8 +87,8 @@ function Portfolio() {
                                         <Card.Text>
                                         Recreation of a To-Do List application using React class components and basic CRUD principles. Features Delete and Edit buttons, and filters based on completion status.
                                         </Card.Text>
-                                        <a href="https://to-do-list-awesomeinc.web.app/"><Button variant="primary" className="m-3">View Live URL</Button></a>
-                                        <a href="https://github.com/TiciaD/ToDoList"><Button variant="primary">View My Repo</Button></a>
+                                        <a href="https://to-do-list-awesomeinc.web.app/" target="_blank" rel="noreferrer"><Button variant="primary" className="m-3">View Live URL</Button></a>
+                                        <a href="https://github.com/TiciaD/ToDoList" target="_blank" rel="noreferrer"><Button variant="primary">View My Repo</Button></a>
                                         <ListGroup className="list-group-flush mt-3">
                                             <ListGroupItem className="bg-info text-light fs-5">Tech Stack</ListGroupItem>
                                             <ListGroupItem>
@@ -113,8 +112,8 @@ function Portfolio() {
                                         <Card.Text>
                                         Website that calls an API with Food Items and renders them, along with randomly generated prices for each, in a menu format for a fake restaurant
                                         </Card.Text>
-                                        <a href="https://react-restaurant-awesomeinc.web.app/"><Button variant="primary" className="m-3">View Live URL</Button></a>
-                                        <a href="https://github.com/TiciaD/ReactRestaurant"><Button variant="primary">View My Repo</Button></a>
+                                        <a href="https://react-restaurant-awesomeinc.web.app/" target="_blank" rel="noreferrer"><Button variant="primary" className="m-3">View Live URL</Button></a>
+                                        <a href="https://github.com/TiciaD/ReactRestaurant" target="_blank" rel="noreferrer"><Button variant="primary">View My Repo</Button></a>
                                         <ListGroup className="list-group-flush mt-3">
                                             <ListGroupItem className="bg-info text-light">Tech Stack</ListGroupItem>
                                             <ListGroupItem>
@@ -123,6 +122,36 @@ function Portfolio() {
                                                 <li>React JS</li>
                                                 <li>axios</li>
                                                 <li>React-Bootstrap</li>
+                                            </ListGroupItem>
+                                        </ListGroup>
+                                    </Card.Body>
+                                    <Card.Footer className="text-muted">October 2021</Card.Footer>
+                                </Card>
+                            </Col>
+                            <Col>
+                                <Card className="h-100 text-center border-dark shadow bg-body rounded">
+                                    <Card.Img variant="top" className="static" src="../img/FishingHooksProjectStill.jpg"/>
+                                    <Card.Img variant="top" className="active" src="../gifs/FishingHooksProject.gif"/>
+                                    <Card.Body>
+                                        <Card.Title className="fw-bolder text-decoration-underline">Fishing Store E-Commerce Website</Card.Title>
+                                        <Card.Subtitle className="mb-2 text-muted">Part 1 of 3</Card.Subtitle>
+                                        <Card.Text>
+                                        Website that calls an API with Fishing Products and renders them using React Hooks. Allows user to add/remove items from a cart and calculate total. Part 1
+                                        of 3 part project to make an e-commerce website with a shopping cart, a Shipping Info page and a user authentication login dashboard.
+                                        </Card.Text>
+                                        <a href="https://fishing-hooks-awesomeinc.web.app/" target="_blank" rel="noreferrer"><Button variant="primary" className="m-3">View Live URL</Button></a>
+                                        <a href="https://github.com/TiciaD/Fishing-Hooks" target="_blank" rel="noreferrer"><Button variant="primary">View My Repo</Button></a>
+                                        <ListGroup className="list-group-flush mt-3">
+                                            <ListGroupItem className="bg-info text-light">Tech Stack</ListGroupItem>
+                                            <ListGroupItem>
+                                                <li>HTML</li>
+                                                <li>CSS</li>
+                                                <li>SCSS</li>
+                                                <li>React JS</li>
+                                                <li>React Hooks</li>
+                                                <li>axios</li>
+                                                <li>React-Bootstrap</li>
+                                                <li>React-Router</li>
                                             </ListGroupItem>
                                         </ListGroup>
                                     </Card.Body>

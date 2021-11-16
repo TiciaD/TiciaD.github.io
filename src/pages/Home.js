@@ -25,10 +25,10 @@ export default function Home() {
                                                 <a href="mailto:dunnticia633@gmail.com"><img className="contact-card rounded" src="../img/Email.svg" alt="email" width="50px" height="50px"/></a>
                                             </Col>
                                             <Col>
-                                                <a href="https://github.com/TiciaD"><img className="contact-card rounded" src="../img/Github.svg" alt="github" width="50px" height="50px"/></a>
+                                                <a href="https://github.com/TiciaD" target="_blank" rel="noreferrer"><img className="contact-card rounded" src="../img/Github.svg" alt="github" width="50px" height="50px"/></a>
                                             </Col>
                                             <Col>
-                                                <a href="https://www.linkedin.com/in/ticia-dunn-39208b178"><img className="contact-card rounded" src="../img/linkedin.svg" alt="linkedin" width="50px" height="50px"/></a>
+                                                <a href="https://www.linkedin.com/in/ticia-dunn-39208b178" target="_blank" rel="noreferrer"><img className="contact-card rounded" src="../img/linkedin.svg" alt="linkedin" width="50px" height="50px"/></a>
                                             </Col>
                                         </Row>
                                     </Container>
@@ -53,7 +53,7 @@ export default function Home() {
                                         <Card.Text>
                                         Weather Application that takes in a ZIP code and calls a Weather API to render information on current weather. Designed for mobile devices.
                                         </Card.Text>
-                                        <a href="https://ticiad.github.io/WeatherApp/"><Button variant="primary">View</Button></a>
+                                        <a href="https://ticiad.github.io/WeatherApp/" target="_blank" rel="noreferrer"><Button variant="primary">View</Button></a>
                                     </Card.Body>
                                     <Card.Footer className="text-muted">Tech Stack: HTML, CSS, vanilla JavaScript, axios, Bootstrap 5</Card.Footer>
                                 </Card>
@@ -66,7 +66,7 @@ export default function Home() {
                                         <Card.Text>
                                         Recreation of classic Tic Tac Toe game using class-based OOP design in vanilla Javascript. Designed for 2 human players.
                                         </Card.Text>
-                                        <a href="https://ticiad.github.io/TicTacToe/"><Button variant="primary">View</Button></a>
+                                        <a href="https://ticiad.github.io/TicTacToe/" target="_blank" rel="noreferrer"><Button variant="primary">View</Button></a>
                                     </Card.Body>
                                     <Card.Footer className="text-muted">Tech Stack: HTML, CSS, vanilla JavaScript, Bootstrap 5</Card.Footer>
                                 </Card>
@@ -79,7 +79,7 @@ export default function Home() {
                                         <Card.Text>
                                         Website that calls an API with Food Items and renders them, along with randomly generated prices for each, in a menu format for a fake restaurant
                                         </Card.Text>
-                                        <a href="https://react-restaurant-awesomeinc.web.app/"><Button variant="primary">View</Button></a>
+                                        <a href="https://react-restaurant-awesomeinc.web.app/" target="_blank" rel="noreferrer"><Button variant="primary">View</Button></a>
                                     </Card.Body>
                                     <Card.Footer className="text-muted">Tech Stack: HTML, CSS, ReactJS, React-Bootstrap, axios</Card.Footer>
                                 </Card>
@@ -92,7 +92,7 @@ export default function Home() {
                                         <Card.Text>
                                         Recreation of a To-Do List application using React class components and basic CRUD principles. Features Delete and Edit buttons, and filters based on completion status. 
                                         </Card.Text>
-                                        <a href="https://to-do-list-awesomeinc.web.app/"><Button variant="primary">View</Button></a>
+                                        <a href="https://to-do-list-awesomeinc.web.app/" target="_blank" rel="noreferrer"><Button variant="primary">View</Button></a>
                                     </Card.Body>
                                     <Card.Footer className="text-muted">Tech Stack: HTML, CSS, SCSS, ReactJS, Bootstrap 5</Card.Footer>
                                 </Card>

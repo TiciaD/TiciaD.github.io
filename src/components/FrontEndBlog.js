@@ -109,6 +109,24 @@ function FrontEndBlog() {
                         </Card.Body>
                     </Card>
                 </Col>
+                <Col>
+                    <Card className="shadow p-4 mb-5 bg-body rounded">
+                        <Card.Body>
+                            <Card.Title className="fs-3 fw-bold">Part 8: Learning React</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">10/11/2021 - 10/15/2021</Card.Subtitle>
+                            <Card.Text className="blog-post fw-normal">
+                                I can certainly see the advantage of using a JavaScript framework or library, I think the value becomes more apparent once you truly understand everything that it does to improve the development experience.
+                                It helps cut down on the amount of code, you can connect your JavaScript to the HTML much more efficiently and once you understand how to make those connections, the coding process goes much quicker!
+                                <br />
+                                <br />
+                                Just from the sheer amount of job postings I've seen, it may be interesting to learn more about Vue.js or Angular. They seem to be 2nd and 3rd in most popular JavaScript frameworks.
+                                <br />
+                                <br />
+                                I'd like to learn more about Redux maybe for my final project.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
             </Row>
         </div>
     )

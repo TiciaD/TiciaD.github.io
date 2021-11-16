@@ -25,7 +25,9 @@ function Blog() {
                                 <OnboardingBlog />
                             </Tab>
                             <Tab eventKey="front" title="Front-End">
-                                <FrontEndBlog />
+                                <Container>
+                                    <FrontEndBlog />
+                                </Container>
                             </Tab>
                             <Tab eventKey="back" title="Back-End">
                                 <BackEndBlog />
