@@ -31,7 +31,7 @@ function Portfolio() {
                                         <a href="https://ticiad.github.io/TicTacToe/" target="_blank" rel="noreferrer"><Button variant="primary" className="m-3">View Live URL</Button></a>
                                         <a href="https://github.com/TiciaD/TicTacToe" target="_blank" rel="noreferrer"><Button variant="primary">View My Repo</Button></a>
                                         <ListGroup className="list-group-flush mt-3">
-                                            <ListGroupItem className="bg-info text-light fs-5">Tech Stack</ListGroupItem>
+                                            <ListGroupItem className="bg-info text-light">Tech Stack</ListGroupItem>
                                             <ListGroupItem>
                                                 <li>HTML</li>
                                                 <li>CSS</li>
